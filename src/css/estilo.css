@@ -1,0 +1,31 @@
+/*Variaveis*/
+:root{
+    --body-font:"Arial","serif";
+    --color1: #000;
+    --color2: #0c0c23;
+    --color3: #022530;
+    --color4: #054961;
+    --color5: #fff;
+    --color6: #FFFF00;
+    /*HSL - matriz, saturação e leveza vão de 0 a 360*/
+    --color7: hsl(0,80%,90%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /*Técnica do root Font-size: 62.5% faz a conversão de pixel para rem mais facil, pois 
+    a base para o calculo passa a ser 10 em vez de 16, é possivel fazer com que 1rem seja equivalente a 1px*/
+    font-size: 62.5%;
+}
+
+body{
+    background: var(--color3);
+    font-family: var(--body-font);
+    line-height: 1.5;
+}
+
